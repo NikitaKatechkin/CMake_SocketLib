@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SOCKETRESULT_H
+#define SOCKETRESULT_H
 
 namespace CustomSocket
 {
@@ -9,3 +10,5 @@ namespace CustomSocket
 		NotImplemented
 	};
 }
+
+#endif

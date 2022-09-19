@@ -1,4 +1,5 @@
-#pragma once
+#ifndef IPVERSION_H
+#define IPVERSION_H
 
 namespace CustomSocket
 {
@@ -8,3 +9,5 @@ namespace CustomSocket
 		IPv6
 	};
 }
+
+#endif

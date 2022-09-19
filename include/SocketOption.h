@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SOCKETOPTION_H
+#define SOCKETOPTION_H
 
 namespace CustomSocket
 {
@@ -7,3 +8,5 @@ namespace CustomSocket
 		TCP_NoDelay, 
 	};
 }
+
+#endif
